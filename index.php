@@ -1,3 +1,10 @@
+<?php
+/*
+    Yhdistetään tietokantaan käyttäen eri tiedostoa
+    https://www.w3schools.com/php/php_includes.asp
+*/
+require_once("mysqlConnection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +35,8 @@
                     <th>Oivallus</th>
                     <th>Poista</th>
                 </tr>         
-
+<?php
+include("listaa_oivallus.php");
+?>
 </body>
 </html>
