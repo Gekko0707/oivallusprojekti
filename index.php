@@ -24,7 +24,7 @@ require_once("mysqlConnection.php");
     
     <div class="lisaa_uusi mt-4">
             <form action="lisaa_oivallus.php" method="post">
-                <input type="text" name="lisaa_uusi_oivallus"></input>
+                <input type="text" name="lisaa_uusi_oivallus">
                 <input type="submit" value="Lisää uusi">
             </form>
         </div>
