@@ -34,7 +34,8 @@ require_once("mysqlConnection.php");
                     <th>Päivä</th>
                     <th>Oivallus</th>
                     <th>Poista</th>
-                </tr>         
+                </tr>
+            </table>
 <?php
 include("listaa_oivallus.php");
 ?>
