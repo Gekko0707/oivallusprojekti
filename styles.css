@@ -1,0 +1,16 @@
+h1 {
+    background-color: darkred;
+    color: #c7c6c6;
+    text-align: center;
+    padding: 50px;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+table {
+    text-align: center;
+    width: 100%;
+
+}
