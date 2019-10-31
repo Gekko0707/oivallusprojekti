@@ -7,33 +7,27 @@
     <title>Perjantai 3110</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
+
 <body>
+    <body class="bg-dark text-white">
+    <div class="container">
+    <div class="otsikko bg-secondary mt-4 rounded">
     <h1>Mitä en oppinut tänäänkään?</h1>
 
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-
-    <table style="width:100%">
-    <tr>
-        <th>päivä</th>
-        <th>oivallus</th>
-        <th>poista</th>
-    </tr>
-    <tr>
-        <td>31.10.19</td>
-        <td>Marvelia EI käytetä</td>
-        <td>X</td>
-    </tr>
-    <tr>
-        <td>01.11.19</td>
-        <td>hammaslääkäri</td>
-        <td></td>
-    </tr>
-    </table>
+    
+    <div class="lisaa_uusi mt-4">
+            <form action="lisaa_oivallus.php" method="post">
+                <input type="text" name="lisaa_uusi_oivallus"></input>
+                <input type="submit" value="Lisää uusi">
+            </form>
+        </div>
+        <div class="listaa_oivallukset mt-4">
+            <table class="table table-dark">
+                <tr>
+                    <th>Päivä</th>
+                    <th>Oivallus</th>
+                    <th>Poista</th>
+                </tr>         
 
 </body>
 </html>
