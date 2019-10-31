@@ -35,9 +35,10 @@ require_once("mysqlConnection.php");
                     <th>Oivallus</th>
                     <th>Poista</th>
                 </tr>
-            </table>
+            
 <?php
 include("listaa_oivallus.php");
 ?>
+            </table>
 </body>
 </html>
